@@ -8,6 +8,7 @@ class User {
   gender: string;
   wife: undefined;
   married: boolean;
+  hobbies: Array<string>;
 
   constructor() {
     this.userName = "ragasubekti";
@@ -17,6 +18,7 @@ class User {
     this.gender = "Male";
     this.wife = undefined;
     this.married = false;
+    this.hobbies = ["Sleeping", "Listening to Music", "Playing Video Games"];
   }
 
   sayHello() {
@@ -25,6 +27,7 @@ class User {
     console.log(`I live on ${this.addresss}`);
     console.log(`My wife is ${this.wife}`);
     console.log(`Am i married? ${this.married}`);
+    console.log(`My hobby are: ${this.hobbies}`);
     console.log(`My github username is ${this.userName}`);
   }
 }
