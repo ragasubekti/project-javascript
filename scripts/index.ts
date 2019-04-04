@@ -1,3 +1,5 @@
+export {};
+
 class User {
   userName: string;
   name: string;
@@ -13,6 +15,9 @@ class User {
 
   sayHello() {
     console.log(`Hello, my name is ${this.name}`);
+    console.log(`'My age is ${this.age}'`);
+    console.log(`I live on ${this.addresss}`);
+    console.log(`My github username is ${this.userName}`);
   }
 }
 
