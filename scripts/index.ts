@@ -1,5 +1,3 @@
-// export {};
-
 class User {
   userName: string;
   name: string;
@@ -31,7 +29,7 @@ class User {
     console.log(`Hello, my name is ${this.name}`);
     console.log(`My age is ${this.age}`);
     console.log(`I live on ${this.addresss}`);
-    console.log(`My wife is ${this.wife}`);
+    console.log(`My future is ${this.wife}`);
     console.log(`Am i married? ${this.married}`);
     console.log(`My hobby are: ${this.hobbies}`);
     console.log(`Some of my pets are:`);
