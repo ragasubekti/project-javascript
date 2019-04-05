@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ragasubekti/project-javascript#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.96.0",
     "lite-server": "^2.4.0",
     "typescript": "^3.4.1"
   }

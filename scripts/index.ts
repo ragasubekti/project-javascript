@@ -4,7 +4,7 @@ class User {
   age: number;
   addresss: string;
   gender: string;
-  wife: undefined;
+  future: undefined;
   married: boolean;
   hobbies: Array<string>;
   pets: Object;
@@ -15,7 +15,7 @@ class User {
     this.age = 20;
     this.addresss = "Jl. Raden Panji Suroso";
     this.gender = "Male";
-    this.wife = undefined;
+    this.future = undefined;
     this.married = false;
     this.hobbies = ["Sleeping", "Listening to Music", "Playing Video Games"];
     this.pets = {
@@ -29,7 +29,7 @@ class User {
     console.log(`Hello, my name is ${this.name}`);
     console.log(`My age is ${this.age}`);
     console.log(`I live on ${this.addresss}`);
-    console.log(`My future is ${this.wife}`);
+    console.log(`My future is ${this.future}`);
     console.log(`Am i married? ${this.married}`);
     console.log(`My hobby are: ${this.hobbies}`);
     console.log(`Some of my pets are:`);
